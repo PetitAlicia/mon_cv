@@ -1,9 +1,172 @@
 @font-face {
     font-family: "Raleway";
-    src: url("./fonts/Raleway-VariableFont_wght.woff"), format("woff"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.woff"), format("woff"),
-    url("./fonts/Raleway-VariableFont_wght.ttf"), format("truetype"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.ttf"), format("truetype"),
-    url("./fonts/Raleway-VariableFont_wght.otf"), format("opentype"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.otf"), format("opentype");
+    src: url("./fonts/Raleway-Regular.woff") format("woff"),
+    url("./fonts/Raleway-Italic.woff") format("woff"),
+    url("./fonts/Raleway-Bold.woff") format("woff"),
+    url("./fonts/Raleway-Regular.ttf") format("truetype"),
+    url("./fonts/Raleway-Italic.ttf") format("truetype"),
+    url("./fonts/Raleway-Bold.ttf") format("truetype"),
+    url("./fonts/Raleway-Regular.otf") format("opentype"),
+    url("./fonts/Raleway-Italic.otf") format("opentype"),
+    url("./fonts/Raleway-Bold.otf") format("opentype");
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+    overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    background-color: #dbc2a4;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+header, main, footer {
+    width: 1160px;
+    margin: auto;
+}
+
+header, footer, .personal {
+    background-color: #782221;
+    color: white;
+}
+
+.pic_name_job {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.pic_name_job img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 5px #dbc2a4;
+    cursor: zoom-in;
+}
+
+.contact {
+    background-color: #2c1d27;
+    color: white;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact a:link {
+    text-decoration: none;
+    color:white;
+}
+
+.contact a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.contact a:active {
+    text-decoration: none;
+    color:white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.personal {
+    width: 25%;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+.personal h3 {
+    padding-left: 25px;
+}
+
+#a_propos {
+    text-indent: 30px;
+    padding-left: 20px;
+}
+
+.professionnal {
+    width: 75%;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 2px;
+    border-color: black;
+    padding-left: 25px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.professionnal h3 {
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 5px;
+    border-right-width: 0px;
+    border-color: #782221;
+    padding-left: 5px;
+}
+
+.right_border:hover {
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 5px;
+    border-color: #782221;
+    padding-right: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px 15px;
+}
+
+.social_links img {
+    height: 40px;
+    width: 40px;
+}
+
+.social_links img:hover {
+    opacity: 0.7;
+}
+
+.update {
+    padding-bottom: 20px;
 }
