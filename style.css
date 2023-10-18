@@ -1,9 +1,12 @@
 @font-face {
     font-family: "Raleway";
-    src: url("./fonts/Raleway-VariableFont_wght.woff"), format("woff"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.woff"), format("woff"),
-    url("./fonts/Raleway-VariableFont_wght.ttf"), format("truetype"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.ttf"), format("truetype"),
-    url("./fonts/Raleway-VariableFont_wght.otf"), format("opentype"),
-    url("./fonts/Raleway-Italic-VariableFont_wght.otf"), format("opentype");
+    src: url("./fonts/Raleway-Regular.woff") format("woff"),
+    url("./fonts/Raleway-Italic.woff") format("woff"),
+    url("./fonts/Raleway-Bold.woff") format("woff"),
+    url("./fonts/Raleway-Regular.ttf") format("truetype"),
+    url("./fonts/Raleway-Italic.ttf") format("truetype"),
+    url("./fonts/Raleway-Bold.ttf") format("truetype"),
+    url("./fonts/Raleway-Regular.otf") format("opentype"),
+    url("./fonts/Raleway-Italic.otf") format("opentype"),
+    url("./fonts/Raleway-Bold.otf") format("opentype");
 }
